@@ -28,16 +28,16 @@ export default function RootLayout({
 }>) {
   return (
     <ClientProvider>
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <Nav />
-        {children}
-        <Footer />
-        <ScrollToTop />
-      </body>
-    </html>
+      <html lang="en">
+        <body
+          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        >
+          <Nav />
+          {children}
+          <Footer />
+          <ScrollToTop />
+        </body>
+      </html>
     </ClientProvider>
   );
 }

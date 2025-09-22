@@ -8,9 +8,7 @@ interface Props {
 }
 
 const ClientProvider = ({ children }: Props) => {
-  return (
-  <SessionProvider>{children}</SessionProvider>
-  )
+  return <SessionProvider>{children}</SessionProvider>;
 };
 
 export default ClientProvider;

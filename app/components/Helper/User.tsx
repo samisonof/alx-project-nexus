@@ -11,9 +11,12 @@ interface Props {
 
 const User = ({ session }: Props) => {
   return (
-    <div onClick={()=>{
-      signOut({callbackUrl: `${process.env.NEXT_PUBLIC_URL}/signup` })
-    }} className="cursor-pointer">
+    <div
+      onClick={() => {
+        signOut({ callbackUrl: `${process.env.NEXT_PUBLIC_URL}/signup` });
+      }}
+      className="cursor-pointer"
+    >
       <img
         src={session?.user?.image || ""}
         alt="User Image"

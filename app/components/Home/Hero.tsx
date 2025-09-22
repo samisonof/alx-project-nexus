@@ -25,7 +25,9 @@ const Hero = () => {
                 type="text"
                 placeholder="Search job."
               />
-              <button className="px-5 py-4 outline-none rounded-r-md bg-blue-500 text-white">Search</button>
+              <button className="px-5 py-4 outline-none rounded-r-md bg-blue-500 text-white">
+                Search
+              </button>
             </div>
           </div>
           {/* image */}
