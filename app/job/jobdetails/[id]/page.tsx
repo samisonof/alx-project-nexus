@@ -53,11 +53,11 @@ const jobdetails = async ({ params }: { params: { id: string } }) => {
         </p>
         <h1 className="text-[20px] mt-8 font-semibold">Skills</h1>
         <ul className="mt-4">
-          <li className="mt-4 text-white text-opacity-70">React Js</li>
-          <li className="mt-4 text-white text-opacity-70">Next Js</li>
-          <li className="mt-4 text-white text-opacity-70">Tailwind CSS</li>
-          <li className="mt-4 text-white text-opacity-70">Typecript</li>
-          <li className="mt-4 text-white text-opacity-70">Next Auth</li>
+          <li className="mt-4 text-gray-500 text-opacity-70">React Js</li>
+          <li className="mt-4 text-gray-500 text-opacity-70">Next Js</li>
+          <li className="mt-4 text-gray-500 text-opacity-70">Tailwind CSS</li>
+          <li className="mt-4 text-gray-500 text-opacity-70">Typecript</li>
+          <li className="mt-4 text-gray-500 text-opacity-70">Next Auth</li>
         </ul>
         <h1 className="text-[20px] mt-8 font-semibold">Related Job</h1>
         <div className="mt-4">
